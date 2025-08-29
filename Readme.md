@@ -121,7 +121,12 @@ The **agentic architecture** enables autonomous navigation, analysis, and summar
 
 ---
 
-## 🔍 Problem
+## 📖 Full Description
+
+<details>
+  <summary>📖 Click to expand the Description</summary>
+
+### 🔍 Problem
 
 Legal documents are often:
 
@@ -133,7 +138,7 @@ Traditional tools lack **contextual sensitivity**, limiting their effectiveness 
 
 ---
 
-## 💡 Solution
+### 💡 Solution
 
 This tool provides a **sophisticated, autonomous solution**:
 
@@ -144,28 +149,28 @@ This tool provides a **sophisticated, autonomous solution**:
 
 ---
 
-## 🧠 Training Process
+### 🧠 Training Process
 
-### Preprocessing
+#### Preprocessing
 
 - Collected a large legal corpus: contracts, filings, case law, annotated documents
 - Cleaned text and normalized terminology
 - Segmented documents into **clause-level units**
 - Manually annotated parties, dates, obligations, statutes, financial terms
 
-### Model Selection
+#### Model Selection
 
 - Base model: **BERT**, fine-tuned on legal text (Legal-BERT variant)
 - RAG integrated for external document referencing and clause similarity
 - Human-in-the-loop feedback to enhance output relevance
 
-### Training & Validation
+#### Training & Validation
 
 - Supervised learning on annotated NER dataset (80/20 train/validation split)
 - Co-training for RAG: retrieval + generation alignment
 - Iterative feedback from legal professionals
 
-### Evaluation Metrics
+#### Evaluation Metrics
 
 - **NER:** Precision, Recall, F1-score
 - **Clause similarity/contradiction:** Semantic similarity + manual validation
@@ -173,7 +178,7 @@ This tool provides a **sophisticated, autonomous solution**:
 
 ---
 
-## 🌟 Highlights
+### 🌟 Highlights
 
 - Accurate detection of clause duplication, variation, and contradiction
 - Advanced Legal NER with high precision and recall
@@ -183,7 +188,7 @@ This tool provides a **sophisticated, autonomous solution**:
 
 ---
 
-## 🏆 Achievements
+### 🏆 Achievements
 
 - >90% accuracy in extracting legal entities (benchmark datasets)
 - Up to 60% reduction in contract review time (law firm pilots)
@@ -192,7 +197,7 @@ This tool provides a **sophisticated, autonomous solution**:
 
 ---
 
-## 🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 - **BERT / Legal-BERT** for NER
 - **Retrieval-Augmented Generation (RAG)** for contextual clause analysis
@@ -203,7 +208,7 @@ This tool provides a **sophisticated, autonomous solution**:
 
 ---
 
-## 🎯 Use Cases
+### 🎯 Use Cases
 
 - Legal contract review and standardization
 - Compliance monitoring & regulatory checks
@@ -213,11 +218,15 @@ This tool provides a **sophisticated, autonomous solution**:
 
 ---
 
-## 📚 References
+### 📚 References
 
 1. Chalkidis, I., Fergadiotis, M., Malakasiotis, P., Aletras, N., & Androutsopoulos, I. (2020). *LEGAL-BERT: The Muppets straight out of Law School.* [arXiv](https://arxiv.org/abs/2010.02559)
 2. Lewis, P., et al. (2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.* [arXiv](https://arxiv.org/abs/2005.11401)
 3. Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.* [arXiv](https://arxiv.org/abs/1810.04805)
 4. Nadeem, M., Bethard, S., & Uzuner, Ö. (2019). *Identifying Contractual Obligations in Legal Text.* Proceedings of the Natural Legal Language Processing Workshop.
 5. Zhong, H., et al. (2020). *How Does NLP Benefit Legal System: A Summary of Legal Artificial Intelligence.* [arXiv](https://arxiv.org/abs/2004.12158)
-6. Bommarito II, M. J., & Katz, D. M. (2017). *A Neural Approach to Predicting Supreme Court Decisions.* [PeerJ](https://peerj.com/articles/cs-93/)  
+6. Bommarito II, M. J., & Katz, D. M. (2017). *A Neural Approach to Predicting Supreme Court Decisions.* [PeerJ](https://peerj.com/articles/cs-93/)
+
+
+</details>
+
