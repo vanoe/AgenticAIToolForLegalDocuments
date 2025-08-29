@@ -86,6 +86,12 @@ The **agentic architecture** enables autonomous navigation, analysis, and summar
     </tbody>
 </table>
 
+### 📄 PDF Examples
+
+[📄 Legal Document Processing Example](./src/Legal_Document_Processing_Example.pdf)
+
+[📄 Original Document-Sky Divestiture Agreement](./src/Original_Document-Sky_Divestiture_Agreement.pdf)
+
 ---
 
 ## 🔍 Problem
