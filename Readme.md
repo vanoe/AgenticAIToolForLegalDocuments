@@ -92,6 +92,33 @@ The **agentic architecture** enables autonomous navigation, analysis, and summar
 
 [📄 Original Document-Sky Divestiture Agreement](./src/Original_Document-Sky_Divestiture_Agreement.pdf)
 
+### 🎥 Video Examples
+
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <video src="https://github.com/user-attachments/assets/8e0e5972-fb18-408e-a19d-975492c6668a" controls preload>
+                    Your browser does not support the video tag.
+                </video>
+            </td>
+            <td>
+                <video src="https://github.com/user-attachments/assets/b662821f-02e3-4e21-b43d-7834989f717a" controls preload>
+                    Your browser does not support the video tag.
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <video src="https://github.com/user-attachments/assets/3b26f444-ea76-4c08-9ddf-564f6636d18b" controls preload>
+                    Your browser does not support the video tag.
+                </video>
+            </td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
 ---
 
 ## 🔍 Problem
