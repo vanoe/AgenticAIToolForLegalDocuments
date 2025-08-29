@@ -7,7 +7,7 @@ Automatically finds similar clauses, flags mistakes or contradictions, and extra
 
 ## 🛠️ Scheme
 
-*(Insert flowchart or diagram showing document ingestion → NER → clause comparison → agentic analysis → summary)*
+<img src="./img/img-1.png" alt="Scheme" />
 
 ---
 
